@@ -1,0 +1,30 @@
+:root {
+  /* Primary Colors */
+  --dark: #653f3c;
+  --light: #f8f5e3;
+  --white: #ffffff;
+  --dark-trans: #7D5B57;
+  --muted: #6c6c6c;
+  --dark-hover: #4d2f2c;
+
+  /* Border & Outline */
+  --border-color: #e0dcd1;  
+
+  /* Typography */
+  --font-family-base: 'Poppins', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+ --font-awesome: 'Font Awesome 6 Free';
+ 
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

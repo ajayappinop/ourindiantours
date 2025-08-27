@@ -1,0 +1,97 @@
+/* ---------------------- */
+/* Responsive Breakpoints */
+/* ---------------------- */
+@media (max-width: 992px) {
+    p{ font-size: 1.4rem; line-height:2.2rem; }
+  .h1 { font-size: 4.5rem; }
+  .h2 { font-size: 4rem; }
+  .h3 { font-size: 3.5rem; }
+  .h4 { font-size: 2.5rem; }
+  .py-15 { padding-top: 6rem; padding-bottom: 6rem; }
+  .brief-information .information-block .detail {
+    max-width: 90%;
+    padding: 2rem;
+  }
+  .homecontent{
+    padding:5rem 0;
+  }
+  .homecontent .h4{
+    font-size:2.5rem;
+    line-height:3.5rem;
+  }
+  .brief-information .information-block .detail p{
+    color:var(--white);
+  }
+
+ .navbar-brand img{
+    max-width:15rem;
+ }
+.brief-information .information-block .detail .readmore {
+  margin-top:0rem;
+  display: flex;
+  
+  visibility: visible;
+}
+.brief-information .information-block .detail .readmore  i{
+    font-size:1.5rem;
+}
+.brief-information .information-block:hover .detail p{
+    display: none;
+}
+.brief-information .information-block:hover::after {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0) 100%);
+}
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1.6rem;
+    padding: 1.2rem 2rem;
+  }
+  .readmore {
+    height: 5rem;
+    width: 5rem;
+  }
+   .hero-img {
+    max-height: 50vh;
+  }
+  .swiper-pagination{
+    justify-content: end;
+    display: flex;
+  }
+  .swiper-pagination-bullet {
+    height: 1rem !important;
+    width: 1rem !important;
+    margin: 0 1rem;
+}
+  .readmore i {
+    font-size: 2rem;
+  }
+  footer .privacy-policy ul {
+    justify-content: center;
+  }
+  .copyright{
+    text-align: center;
+  }
+
+  section{
+    padding:4rem 0;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .h1 { font-size: 3.5rem; }
+  .h2 { font-size: 3rem; }
+  .h3 { font-size: 2.5rem; }
+  .h4 { font-size: 2rem; }
+  .home-contact .contact-form {
+    padding: 2rem;
+    border-radius: 2rem;
+    border:solid 0.2rem var(--white);
+  }
+  .home-contact .contact-form .form-control{
+    border:solid 0.2rem var(--white);
+    border-radius: 1.5rem;
+  }
+}
