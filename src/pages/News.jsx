@@ -12,6 +12,8 @@ function Blog() {
       </div>
       <section>
       <div className='container'>
+         <h1 className='h3 mb-5'>News</h1>
+          
         <div className=' card p-5 rounded-xl'>
         <div className='row g-5'>
           <div className='col-xl-7 col-md-12'>

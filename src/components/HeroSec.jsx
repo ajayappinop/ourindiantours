@@ -18,7 +18,7 @@ export default function HeroSec() {
         spaceBetween={30}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 6000 }}
         loop={true}
       >
         <SwiperSlide>

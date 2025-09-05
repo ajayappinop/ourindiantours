@@ -11,7 +11,10 @@ import SatyabhanAndManojVardhan from '../assets/satyabhan-singh-receiving-an-opt
 import GeorgeArchibald from '../assets/george-archibald.jpg';
 import EdMcCreaAndGSbhardwaj from '../assets/ed-mcCrea-in-thar-desert-with-gs-bhardwaj-now-wii-director.jpg';
 import DeepEcologyBishnois from '../assets/deep-ecology-bishnois.jpg';
- 
+
+const PDF_BASE = "/testimonials/";
+
+
 function Testimonials() {
   return (
     <div className='testimonials'>
@@ -124,21 +127,21 @@ function Testimonials() {
           <div className='col-lg-4 col-6'>
             <div className='testimonials-list'>
               <ul>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Report-John-Wright.pdf" title='Report-John-Wright'>Report-John-Wright</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Report-Nickys-feedback-to-IGT-website.pdf" title='Report-Nickys-feedback-to-IGT-website'>Report-Nickys-feedback-to-IGT-website</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Report-Wader-Quest.pdf" title='Report-Wader-Quest'>Report-Wader-Quest</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Robs-India-Report-March_2013.pdf" title='Robs-India-Report-March_2013'>Robs-India-Report-March_2013</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/roy-jane-trip-report/">Roy &amp; Jane Trip Report</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Sri-Lanka-Report-by-Stephen-Dean-2017.odt" title='Sri Lanka Report by Stephen Dean 2017'>Sri Lanka Report by Stephen Dean 2017</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Ian-Barthorpe-Trip-Report.zip" title='Ian Barthorpe Trip Report'>Ian Barthorpe Trip Report</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Mike-Box-Tour-Report-2015.doc" title='Mike Box Tour Report 2015'>Mike Box Tour Report 2015</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Dave-Anne-Tour-Report.pdf">Dave-Anne-Tour-Report</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Trip-report-Rajasthan-December-05.pdf">Trip-report- Rajasthan-December-05</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Bird-Trip-Report-by-Rob-Oates.pdf">Bird-Trip-Report-by-Rob-Oates</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Robin-Glenda-India-Tour-Report.pdf">Robin-Glenda-India-Tour-Report</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Gujarat-report-by-Stephen-M-Dean-2015.doc">Gujarat Report by Stephen M Dean 2015</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Boras-report-for-VIGT.docx">Bora’s report for VIGT</a></li>
-                <li><a target='_blank' href="http://ourindiantours.com/wp-content/uploads/2017/01/Susan-from-USA-India-Report-2014.docx">Susan from USA, India Report 2014</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Report-John-Wright.pdf`} title="Report John Wright">Report John Wright</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Report-Nickys-feedback-to-IGT-website.pdf`} title="Report Nickys feedback to IGT website">Report Nickys feedback to IGT website</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Report-Wader-Quest.pdf`} title="Report Wader Quest">Report Wader Quest</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Robs-India-Report-March_2013.pdf`} title="Robs India Report March 2013">Robs India Report March 2013</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Roy-Jane-Trip-Report.pdf`} title="Roy & Jane Trip Report">Roy & Jane Trip Report</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Sri-Lanka-Report-by-Stephen-Dean-2017.odt`} title="Sri Lanka Report by Stephen Dean 2017">Sri Lanka Report by Stephen Dean 2017</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Trip-report-Rajasthan-December-05.pdf`} title="Ian Barthorpe Trip Report">Ian Barthorpe Trip Report</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Mike-Box-Tour-Report-2015.doc`} title="Mike Box Tour Report 2015">Mike Box Tour Report 2015</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Dave-Anne-Tour-Report.pdf`} title="Dave Anne Tour Report">Dave Anne Tour Report</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Trip-report-Rajasthan-December-05.pdf`} title="Trip report Rajasthan December 05">Trip report Rajasthan December 05</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Bird-Trip-Report-by-Rob-Oates.pdf`} title="Bird Trip Report by Rob Oates">Bird Trip Report by Rob Oates</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Robin-Glenda-India-Tour-Report.pdf`} title="Robin Glenda India Tour Report">Robin Glenda India Tour Report</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Gujarat-report-by-Stephen-M-Dean-2015.doc`} title="Gujarat Report by Stephen M Dean 2015">Gujarat Report by Stephen M Dean 2015</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Boras-report.docx`} title="Bora’s report">Bora’s report</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Susan-from-USA-India-Report-2014.docx`} title="Susan from USA, India Report 2014">Susan from USA, India Report 2014</a></li>
               </ul>
             </div>
           </div>

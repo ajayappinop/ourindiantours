@@ -64,30 +64,10 @@ function Footer() {
             <li><a href="/contact" className="text-white text-decoration-none">Contact Us</a></li>
           </ul>
         </nav>
-
-        <div className="row g-4">
-          <div className="col-md-6 col-12">
-            <div className="copyright">
+      <div className="copyright text-center">
               © 2025 Our Indian Tours. All Rights Reserved.
-            </div>
-          </div>
-          <div className="col-md-6 col-12">
-            <div className='privacy-policy'>
-            <ul className="list-unstyled  d-flex flex-wrap justify-content-md-end">
-              <li>
-                <a href="/privacy-policy" className="text-white text-decoration-none">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="/terms-and-conditions" className="text-white text-decoration-none">
-                  Terms and Conditions
-                </a>
-              </li>
-            </ul>
-            </div>
-          </div>
         </div>
+        
       </div>
     </footer>
   );

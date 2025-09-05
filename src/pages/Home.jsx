@@ -39,7 +39,7 @@ function Home() {
                             <img src={GreatIndianBustards} alt='Great Indian Bustards and the Thar Desert' className='w-100 rounded-xl' />
                             <div className='detail'>
                                 <h2 className='h4'>Great Indian Bustards and the Thar Desert</h2>
-                                <p>The Thar Desert is home to the last surviving population of Great Indian Bustards. With fewer than 115 birds left in the wild.</p>
+                                <p>The Thar Desert is home to the last surviving population of Great Indian Bustards. With fewer than 130 birds left in the wild.</p>
                                <Link className='readmore' to='/tours/greatindianbustardtour'><i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ function Home() {
                             <img src={TigersGoldenJubileeTourInIndia} alt='Tigers’ Golden Jubilee Tour' className='w-100 rounded-xl' />
                             <div className='detail'>
                                 <h2 className='h4'>Tigers’ Golden Jubilee Tour</h2>
-                                <p>The Thar Desert is home to the last surviving population of Great Indian Bustards. With fewer than 115 birds left in the wild.</p>
+                                
                                  <Link className='readmore' to='/tours/tigerstour'><i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ function Home() {
                             <img src={RannOfKutchBirdsAndMammals} alt='Rann of Kutch Birds and Mammals' className='w-100 rounded-xl' />
                             <div className='detail'>
                                 <h2 className='h4'>Rann of Kutch Birds and Mammals</h2>
-                                <p>The Thar Desert is home to the last surviving population of Great Indian Bustards. With fewer than 115 birds left in the wild.</p>
+                                
                                  <Link className='readmore' to='/tours/rannofkutchh'><i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ function Home() {
                             <img src={WesternGhatsBirdingTourInIndia} alt='Western Ghats Birding Tour in India' className='w-100 rounded-xl' />
                             <div className='detail'>
                                 <h2 className='h4'>Western Ghats Birding Tour in India</h2>
-                                <p>The Thar Desert is home to the last surviving population of Great Indian Bustards. With fewer than 115 birds left in the wild.</p>
+                                
                                  <Link className='readmore' to='/tours/westernghatsbirdtours'><i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
                         </div>

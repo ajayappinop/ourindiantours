@@ -37,7 +37,7 @@ function Header() {
                   <li><Link className="dropdown-item" to="/tours">All Tours</Link></li>
                   <li><Link className="dropdown-item" to="/tours/greatindianbustardtour">Great Indian Bustard Tour</Link></li>
                   <li><Link className="dropdown-item" to="/tours/rannofkutchh">Rann of Kutchh</Link></li>
-                  <li><Link className="dropdown-item" to="/tours/tigerstour">Tiger Tours</Link></li>
+                  <li><Link className="dropdown-item" to="/tours/tigerstour">Tiger Tour</Link></li>
                   <li><Link className="dropdown-item" to="/tours/westernghatsbirdtours">Western Ghats Bird Tour</Link></li>
                 </ul>
               </li>
