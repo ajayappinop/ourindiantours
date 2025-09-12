@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -55,19 +56,49 @@ function Footer() {
 
         <nav aria-label="Footer navigation">
           <ul className="footeremnu list-unstyled d-flex flex-wrap mb-5">
-            <li><a href="/" className="text-white text-decoration-none">Home</a></li>
-            <li><a href="/about" className="text-white text-decoration-none">About Us</a></li>
-            <li><a href="/testimonials" className="text-white text-decoration-none">Testimonials</a></li>
-            <li><a href="/tours" className="text-white text-decoration-none">Tours</a></li>
-            <li><a href="/services" className="text-white text-decoration-none">Services</a></li>
-            <li><a href="/news" className="text-white text-decoration-none">News</a></li>
-            <li><a href="/contact" className="text-white text-decoration-none">Contact Us</a></li>
+              <Link to="/" className="text-white text-decoration-none">
+            <li>
+                Home
+            </li>
+              </Link>
+              <Link to="/about" className="text-white text-decoration-none">
+            <li>
+                About Us
+            </li>
+              </Link>
+              <Link
+                to="/testimonials"
+                className="text-white text-decoration-none"
+              >
+            <li>
+                Testimonials
+            </li>
+              </Link>
+              <Link to="/tours" className="text-white text-decoration-none">
+            <li>
+                Tours
+            </li>
+              </Link>
+              <Link to="/services" className="text-white text-decoration-none">
+            <li>
+                Services
+            </li>
+              </Link>
+              <Link to="/news" className="text-white text-decoration-none">
+            <li>
+                News
+            </li>
+              </Link>
+              <Link to="/contact" className="text-white text-decoration-none">
+            <li>
+                Contact Us
+            </li>
+              </Link>
           </ul>
         </nav>
-      <div className="copyright text-center">
-              © 2025 Our Indian Tours. All Rights Reserved.
+        <div className="copyright text-center">
+          © 2025 Our Indian Tours. All Rights Reserved.
         </div>
-        
       </div>
     </footer>
   );

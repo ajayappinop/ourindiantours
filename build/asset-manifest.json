@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.423f2372.css",
-    "main.js": "/static/js/main.58c33477.js",
+    "main.js": "/static/js/main.dfc53f23.js",
     "static/js/453.0ba9a7ea.chunk.js": "/static/js/453.0ba9a7ea.chunk.js",
     "static/media/bg.png": "/static/media/bg.602587f2215d00fa8fe2.png",
     "static/media/slide1.jpg": "/static/media/slide1.b6ce59896937f8899ea1.jpg",
@@ -47,16 +47,17 @@
     "static/media/roy-birding-india.jpg": "/static/media/roy-birding-india.7b4019b6987a77e5b905.jpg",
     "static/media/tour-great-indian-bustard.jpg": "/static/media/tour-great-indian-bustard.1e85f5c937898e640578.jpg",
     "static/media/logo-lg.png": "/static/media/logo-lg.a9bb54452c9cc382299b.png",
+    "static/media/homeFooter.jpg": "/static/media/homeFooter.18b86290462435e8fae9.jpg",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
     "static/media/logo.png": "/static/media/logo.78d4ca3b1b4da18b3a4a.png",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
     "index.html": "/index.html",
     "main.423f2372.css.map": "/static/css/main.423f2372.css.map",
-    "main.58c33477.js.map": "/static/js/main.58c33477.js.map",
+    "main.dfc53f23.js.map": "/static/js/main.dfc53f23.js.map",
     "453.0ba9a7ea.chunk.js.map": "/static/js/453.0ba9a7ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.423f2372.css",
-    "static/js/main.58c33477.js"
+    "static/js/main.dfc53f23.js"
   ]
 }
