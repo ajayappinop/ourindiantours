@@ -6,8 +6,9 @@ import TigersGoldenJubileeTourInIndia from '../assets/tigers-golden-jubilee-tour
 import RannOfKutchBirdsAndMammals from '../assets/rann-of-kutch-birds-and-mammals.jpg';
 import WesternGhatsBirdingTourInIndia from '../assets/western-ghats-birding-tour-in-india.jpg'; 
 import ChangeableHawkEagle from '../assets/changeable-hawk-eagle.jpg';
-import LogoLarge from '../assets/logo-lg.png';
-import ContactForm from '../components/ContactForm';
+import BlackLoredTit from '../assets/black-lored-tit.jpg'; 
+import WhatsApp from '../assets/whatsapp.png'; 
+
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -68,7 +69,7 @@ function Home() {
                         <div className='information-block'>
                             <img src={WesternGhatsBirdingTourInIndia} alt='Western Ghats Birding Tour in India' className='w-100 rounded-xl' />
                             <div className='detail'>
-                                <h2 className='h4'>Western Ghats Birding Tour in India</h2>
+                                <h2 className='h4'>Western Ghats Birding Tour</h2>
                                 
                                  <Link className='readmore' to='/tours/westernghatsbirdtours'><i class="fa-solid fa-arrow-right"></i></Link>
                             </div>
@@ -113,18 +114,24 @@ function Home() {
         <div className='home-contact'>
             <div className='container'>
                 <div className='row justify-content-between align-items-center'>
-                    <div className='col-lg-6 col-12'>
+                    <div className='col-lg-7 col-12'>
                         <div className='content-sec mb-5 mb-lg-0'>
-                            <h2 className='h3'>Manoj Vardhan</h2>
-                            <p className='my-4'>Let us join hands together to enhance nature-equity and let us know how best to help you. Best wishes.</p>
-                            <p className='mb-4'><i class="me-3 fa-solid fa-location-dot"></i> Address : C-158A, Dayanand Marg, Tilak Nagar, Jaipur 302 004, India</p>
-                            <p className='mb-4'><i class="me-3 fa-solid fa-phone-volume"></i> Tel : (00.91.141) 3561057 & Mob. (00.91) 9829062445</p>
-                            <p><i class="me-3 fa-solid fa-paper-plane"></i> Email : manojvardhan970@yahoo.in</p>
-                            <img src={LogoLarge} className='mt-5 large-logo' alt="Our Indian Tours Logo" />
+                            
+                             <h2 className='h5 mb-3'>Thank you for browsing this web site</h2>
+                            <p>Some sample itineraries are outlined. Details of habitat, species, National Parks, etc., are also briefly mentioned.</p>
+                            <p>Let us know your choice of species/destinations. We will offer you a bespoke tour. Itinerary will be scripted for you as per your options.</p>
+                            <p>Advance is not forfeited and Itinerary can also be changed during tour. Each guest will receive a new tour plan for him/her.</p>
+                            <p>Grateful thanks to the experts who provided their stunning photographs: Dr. G.S. Bhardwaj, Surendra Singh Chouhan, Parakh Vijay, Durga Lal Verma, Radheshyam Pemani Bishnoi, Naveen Kumar Singh, Roy and Mridul Vaibhav. Approved by Department of Tourism and Member, Indian Association of Tour Operators (IATO).</p>
+                            <div class="content-sec mb-5"><h3 class="h6">Manoj Vardhan</h3><p><a class="text-decoration-none primary-text" href="#">Ourindiantours.com</a></p></div>
+                            <div className='contact-detail mt-5 '>
+                                <p className='mb-4'><i class="me-1 fa-solid fa-location-dot"></i> Address : C-158A, Dayanand Marg, Tilak Nagar, Jaipur 302 004, India</p>
+                                <p className='mb-4'><i class="me-1 fa-solid fa-phone-volume"></i> Tel : (00.91.141) 356 1057 & Mob : (00.91) 98290 62445 <img className='ms-2' src={WhatsApp} alt='Whatsapp' /></p>
+                                <p><i class="me-1 fa-solid fa-paper-plane"></i> Email : manojvardhan970@yahoo.in</p>
+                            </div>
                         </div>
                     </div>
                     <div className='col-lg-5 col-12 ps-lg-5'>
-                            <ContactForm/>
+                         <img src={BlackLoredTit} alt='Changeable Hawk Eagle' className='w-100 rounded-xl' />
                     </div>
                 </div>
             </div>

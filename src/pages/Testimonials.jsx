@@ -132,16 +132,15 @@ function Testimonials() {
                 <li><a target="_blank" href={`${PDF_BASE}Report-Wader-Quest.pdf`} title="Report Wader Quest">Report Wader Quest</a></li>
                 <li><a target="_blank" href={`${PDF_BASE}Robs-India-Report-March_2013.pdf`} title="Robs India Report March 2013">Robs India Report March 2013</a></li>
                 <li><a target="_blank" href={`${PDF_BASE}Roy-Jane-Trip-Report.pdf`} title="Roy & Jane Trip Report">Roy & Jane Trip Report</a></li>
-                <li><a target="_blank" href={`${PDF_BASE}Sri-Lanka-Report-by-Stephen-Dean-2017.odt`} title="Sri Lanka Report by Stephen Dean 2017">Sri Lanka Report by Stephen Dean 2017</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Sri-Lanka-Report-by-Stephen-Dean-2017.pdf`} title="Sri Lanka Report by Stephen Dean 2017">Sri Lanka Report by Stephen Dean 2017</a></li>
                 <li><a target="_blank" href={`${PDF_BASE}Trip-report-Rajasthan-December-05.pdf`} title="Ian Barthorpe Trip Report">Ian Barthorpe Trip Report</a></li>
-                <li><a target="_blank" href={`${PDF_BASE}Mike-Box-Tour-Report-2015.doc`} title="Mike Box Tour Report 2015">Mike Box Tour Report 2015</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Mike-Box-Tour-Report-2015.pdf`} title="Mike Box Tour Report 2015">Mike Box Tour Report 2015</a></li>
                 <li><a target="_blank" href={`${PDF_BASE}Dave-Anne-Tour-Report.pdf`} title="Dave Anne Tour Report">Dave Anne Tour Report</a></li>
-                <li><a target="_blank" href={`${PDF_BASE}Trip-report-Rajasthan-December-05.pdf`} title="Trip report Rajasthan December 05">Trip report Rajasthan December 05</a></li>
                 <li><a target="_blank" href={`${PDF_BASE}Bird-Trip-Report-by-Rob-Oates.pdf`} title="Bird Trip Report by Rob Oates">Bird Trip Report by Rob Oates</a></li>
                 <li><a target="_blank" href={`${PDF_BASE}Robin-Glenda-India-Tour-Report.pdf`} title="Robin Glenda India Tour Report">Robin Glenda India Tour Report</a></li>
-                <li><a target="_blank" href={`${PDF_BASE}Gujarat-report-by-Stephen-M-Dean-2015.doc`} title="Gujarat Report by Stephen M Dean 2015">Gujarat Report by Stephen M Dean 2015</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Gujarat-report-by-Stephen-M-Dean-2015.pdf`} title="Gujarat Report by Stephen M Dean 2015">Gujarat Report by Stephen M Dean 2015</a></li>
                 <li><a target="_blank" href={`${PDF_BASE}Boras-report.docx`} title="Bora’s report">Bora’s report</a></li>
-                <li><a target="_blank" href={`${PDF_BASE}Susan-from-USA-India-Report-2014.docx`} title="Susan from USA, India Report 2014">Susan from USA, India Report 2014</a></li>
+                <li><a target="_blank" href={`${PDF_BASE}Susan-from-USA-India-Report-2014.pdf`} title="Susan from USA, India Report 2014">Susan from USA, India Report 2014</a></li>
               </ul>
             </div>
           </div>

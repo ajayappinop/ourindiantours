@@ -286,7 +286,7 @@ footer .privacy-policy ul li:first-child {
 .testimonials p,
 .tours p{ font-size:1.4rem; } 
 
-.contactus .contact-detail p{ position: relative; padding-left: 3rem; line-height:2rem; }
+.contactus .contact-detail p{ position: relative; padding-left: 3rem; line-height:2rem; font-weight:bold; }
 .contactus .contact-detail p i{ position: absolute; left:0; top:0.5rem; font-size: 1.5rem; }
 .contactus .contact-form { padding: 2rem; border: solid 0.2rem var(--dark); border-radius: 2rem;}
 .contactus .contact-form .h4 { font-weight: var(--font-weight-semibold); margin-bottom: 2rem;}
