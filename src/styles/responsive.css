@@ -41,6 +41,16 @@
 .brief-information .information-block:hover::after {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0) 100%);
 }
+.testimonial-item .comment img{
+  max-width:100% !important;
+  margin-bottom: 20px;
+}
+.testimonial-item{
+  padding: 2rem;
+}
+.testimonials-list{
+   padding:0px;
+}
 }
 
 @media (max-width: 768px) {

@@ -28,7 +28,7 @@ function Testimonials() {
         <div className='container'>
           <h1 className='h3 mb-5'>Testimonials</h1>
           <div className='row'>
-            <div className='col-lg-8 col-6'>
+            <div className='col-lg-8 col-12'>
               <p>Grateful thanks to the Guests who kindly send in their Testimonials to Ourindiantours.com (previous name was VIGT/IGT). </p>
               <p>Each narrative is a detailed and illustrative essay on wild species, where observed, when, how many numbers, and, as they stated, at ease.</p>
               <p>All owing to our colleagues in the field.</p>
@@ -124,7 +124,7 @@ function Testimonials() {
 
 
           </div>
-          <div className='col-lg-4 col-6'>
+          <div className='col-lg-4 col-md-6 mx-auto col-12'>
             <div className='testimonials-list'>
               <ul>
                 <li><a target="_blank" href={`${PDF_BASE}Report-John-Wright.pdf`} title="Report John Wright">Report John Wright</a></li>
