@@ -12,7 +12,7 @@ function Footer() {
                 href="https://www.facebook.com"
                 className="text-white"
                 aria-label="Follow us on Facebook"
-                target="_blank"
+                target="_blank" 
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-facebook-f" aria-hidden="true"></i>
