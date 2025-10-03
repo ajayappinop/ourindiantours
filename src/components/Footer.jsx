@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -55,13 +56,34 @@ function Footer() {
 
         <nav aria-label="Footer navigation">
           <ul className="footeremnu list-unstyled d-flex flex-wrap mb-5">
-            <li><a href="/" className="text-white text-decoration-none">Home</a></li>
-            <li><a href="/about" className="text-white text-decoration-none">About Us</a></li>
-            <li><a href="/testimonials" className="text-white text-decoration-none">Testimonials</a></li>
-            <li><a href="/tours" className="text-white text-decoration-none">Tours</a></li>
-            <li><a href="/services" className="text-white text-decoration-none">Services</a></li>
-            <li><a href="/news" className="text-white text-decoration-none">News</a></li>
-            <li><a href="/contact" className="text-white text-decoration-none">Contact Us</a></li>
+            <li className="nav-item">
+              {/* <a href="/" className="text-white text-decoration-none">Home</a> */}
+              <Link className="nav-link" to="/">Home</Link>
+              </li>
+            <li className="nav-item">
+              {/* <a href="/about" className="text-white text-decoration-none">About Us</a> */}
+              <Link className="nav-link" to="/about">About Us</Link>
+              </li>
+            <li className="nav-item">
+              {/* <a href="/testimonials" className="text-white text-decoration-none">Testimonials</a> */}
+              <Link className="nav-link" to="/testimonials">Testimonials</Link>
+              </li>
+            <li className="nav-item">
+              {/* <a href="/tours" className="text-white text-decoration-none">Tours</a> */}
+              <Link className="dropdown-item" to="/tours">Tours</Link>
+              </li>
+            <li className="nav-item">
+              {/* <a href="/services" className="text-white text-decoration-none">Services</a> */}
+              <Link className="nav-link" to="/services">Services</Link>
+              </li>
+            <li className="nav-item">
+              {/* <a href="/news" className="text-white text-decoration-none">News</a> */}
+              <Link className="nav-link" to="/news">News</Link>
+              </li>
+            <li className="nav-item">
+              {/* <a href="/contact" className="text-white text-decoration-none">Contact Us</a> */}
+              <Link className="nav-link" to="/contact">Contact Us</Link>
+              </li>
           </ul>
         </nav>
       <div className="copyright text-center">
