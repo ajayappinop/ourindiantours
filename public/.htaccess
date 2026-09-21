@@ -1,9 +1,14 @@
 Options -MultiViews
 RewriteEngine On
 
-# If the request is a real file or folder, serve it as-is
+# Force React routes to index.html even if a same-named folder exists
+# (this was breaking /testimonials because of the PDF folder)
+RewriteRule ^(about|testimonials|contact|services|news|tours)/?$ /index.html [NC,L]
+
+# Nested tour pages
+RewriteRule ^tours/.+ /index.html [NC,L]
+
+# Don't rewrite real files (PDFs, images, JS, CSS, etc.)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
-# Otherwise send every route to React (works for all pages on refresh)
 RewriteRule . /index.html [L]

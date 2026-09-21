@@ -12,7 +12,7 @@ import GeorgeArchibald from '../assets/george-archibald.jpg';
 import EdMcCreaAndGSbhardwaj from '../assets/ed-mcCrea-in-thar-desert-with-gs-bhardwaj-now-wii-director.jpg';
 import DeepEcologyBishnois from '../assets/deep-ecology-bishnois.jpg';
 
-const PDF_BASE = "/testimonials/";
+const PDF_BASE = "/testimonial-reports/";
 
 
 function Testimonials() {
