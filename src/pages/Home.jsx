@@ -26,7 +26,7 @@ function Home() {
                     <div className='content-sec'>
                         <h2 className='h3'>About Us</h2>
                         <p className='my-5'>We have been deeply engaged in on-field wildlife conservation for nearly four decades and have led species-specific tours for about 25 years. Recognized by India’s Department of Tourism and proud members of IATO, we know exactly where rare and endangered species can be found — and how to protect them.</p>
-                        <Link className='readmore' to='/About'><i class="fa-solid fa-arrow-right"></i></Link>
+                        <Link className='readmore' to='/about'><i class="fa-solid fa-arrow-right"></i></Link>
                     </div>
                 </div>
             </div>

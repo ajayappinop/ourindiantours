@@ -1,0 +1,9 @@
+Options -MultiViews
+RewriteEngine On
+
+# If the request is a real file or folder, serve it as-is
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise send every route to React (works for all pages on refresh)
+RewriteRule . /index.html [L]
